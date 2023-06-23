@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!-- Mirrored from duruthemes.com/demo/html/fredia/light/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Jun 2023 00:12:58 GMT -->
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="images/favicon.png" />
-    <title>Fredia - Makeup Artist, Model & Beauty Template</title>
+    <title>Aamantrana - Makeup Courses by Best Makeup Artist</title>
     <link href="css/bootstrap.min.css" rel=stylesheet>
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/themify-icons.css" rel="stylesheet">
@@ -19,63 +16,17 @@
     <link href="modules/magnific-popup/magnific-popup.css" rel="stylesheet">
     <link href="modules/swiper/swiper.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144098545-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'UA-144098545-1');
-    </script>
 </head>
 
 <body>
     <!-- Preloader -->
     <div id="fredia-page-loading" class="fredia-pageloading">
         <div class="fredia-pageloading-inner">
-            <a class="fredia-pageloading" href="index.html"> <img src="images/logo-dark.png" alt=" "> </a>
+            <a class="fredia-pageloading" href="index.php"> <img src="images/logo-dark.png" alt=" "> </a>
         </div>
     </div>
     <!-- Header -->
-    <header>
-        <div class="fredia-header-navbar">
-            <div class="container fredia-navbar-container">
-                <div class="fredia-navigation-wrap fredia-start-header start-style">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <nav class="navbar navbar-expand-md navbar-light">
-                                    <!-- Logo -->
-                                    <a class="navbar-brand" href="index.html"> <img src="images/logo.png" alt=""> </a>
-                                    <!-- Menu -->
-                                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                        aria-expanded="false" aria-label="Toggle navigation"> <span
-                                            class="navbar-toggler-icon"></span> </button>
-                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                        <ul class="navbar-nav ml-auto py-4 py-md-0">
-                                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active"> <a class="nav-link"
-                                                    href="index.html">Home</a></li>
-                                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> <a class="nav-link"
-                                                    href="about.html">About</a></li>
-                                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> <a class="nav-link"
-                                                    href="services.html">Services</a></li>
-                                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> <a class="nav-link"
-                                                    href="gallery.html">Gallery</a></li>
-                                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> <a class="nav-link"
-                                                    href="blog.html">Blog</a></li>
-                                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> <a class="nav-link"
-                                                    href="contact.html">Contact</a> </li>
-                                        </ul>
-                                    </div>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+    <?php include 'header.php' ?>
     <!-- Slider -->
     <div class="slider">
         <div class="swiper-container parallax-slider">
@@ -138,8 +89,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 mb-30 animate-box" data-animate-effect="fadeInUp">
-                    <span>Our Makeup Services</span>
-                    <h1>We provide quality services</h1>
+                    <span>Our Makeup Services/Courses</span>
+                    <h1>We provide quality services/courses</h1>
                 </div>
             </div>
             <div class="row">
@@ -148,11 +99,16 @@
                         <div class="col-md-2 animate-box" data-animate-effect="fadeInUp"> <span class="line-one"></span>
                         </div>
                         <div class="col-md-7 mb-30 animate-box" data-animate-effect="fadeInUp">
-                            <p><b>Our services are summarized as follows. Makeup fusce ornare ut tortor ac hendrerit.
-                                    Suspendisse sed sem tincidunt dui congue fermentum.</b></p>
-                            <p>Quisque eu nunc bibe endum in finibus elit eget the solli citudin elit. Phasellus rutrum
-                                in lacus ut euismod. Vestibulum eleifend tortor orci, eu ornare tortor semper at. Duis
-                                scelerisque the nibhse drana moss puse.</p>
+                            <p>
+                                <b>
+                                    Unleash Your Beauty Potential. Step into a world of transformative makeup artistry.
+                                </b>
+                            </p>
+                            <p>
+                                Discover a range of professional makeup services tailored to your unique needs. From
+                                bridal makeup to special events, editorial shoots, lessons, consultations, and group
+                                bookings, our skilled team of makeup artists is here to enhance your natural beauty.
+                                Step into a world of personalized beauty experiences and let us bring out your radiance.
                         </div>
                     </div>
                 </div>
@@ -162,7 +118,7 @@
                     <div class="item animate-box" data-animate-effect="fadeInUp">
                         <div class="position-re o-hidden"> <img src="images/services/s1.png" alt=""> </div>
                         <div class="con">
-                            <h5><a href="services-page.html">Hair Makeup</a></h5>
+                            <h5><a href="services-page.php">Hair Makeup</a></h5>
                         </div>
                     </div>
                 </div>
@@ -170,7 +126,7 @@
                     <div class="item animate-box" data-animate-effect="fadeInUp">
                         <div class="position-re o-hidden"> <img src="images/services/s3.jpg" alt=""> </div>
                         <div class="con">
-                            <h5><a href="services-page.html">Bridal Makeup</a></h5>
+                            <h5><a href="services-page.php">Bridal Makeup</a></h5>
                         </div>
                     </div>
                 </div>
@@ -178,7 +134,7 @@
                     <div class="item animate-box" data-animate-effect="fadeInUp">
                         <div class="position-re o-hidden"> <img src="images/services/s4.jpg" alt=""> </div>
                         <div class="con">
-                            <h5><a href="services-page.html">Child Face Painting</a></h5>
+                            <h5><a href="services-page.php">Child Face Painting</a></h5>
                         </div>
                     </div>
                 </div>
@@ -186,7 +142,7 @@
                     <div class="item animate-box" data-animate-effect="fadeInUp">
                         <div class="position-re o-hidden"> <img src="images/services/s2.jpg" alt=""> </div>
                         <div class="con">
-                            <h5><a href="services-page.html">Fashion Makeup</a></h5>
+                            <h5><a href="services-page.php">Fashion Makeup</a></h5>
                         </div>
                     </div>
                 </div>
@@ -194,7 +150,7 @@
                     <div class="item animate-box" data-animate-effect="fadeInUp">
                         <div class="position-re o-hidden"> <img src="images/services/s5.jpg" alt=""> </div>
                         <div class="con">
-                            <h5><a href="services-page.html">Fantastic Makeup</a></h5>
+                            <h5><a href="services-page.php">Fantastic Makeup</a></h5>
                         </div>
                     </div>
                 </div>
@@ -202,7 +158,7 @@
                     <div class="item animate-box" data-animate-effect="fadeInUp">
                         <div class="position-re o-hidden"> <img src="images/services/s6.jpg" alt=""> </div>
                         <div class="con">
-                            <h5><a href="services-page.html">Effect Makeup</a></h5>
+                            <h5><a href="services-page.php">Effect Makeup</a></h5>
                         </div>
                     </div>
                 </div>
@@ -224,7 +180,7 @@
                         <span class="icon flaticon-039-make-up"></span>
                         <h5>Face Makeup</h5>
                         <p>Fusce cursus lectus tellus. Vivamus cursus turpis auctor semper lobortis.</p>
-                        <p><a href="services-page.html" class="underline-text">Read More</a></p>
+                        <p><a href="services-page.php" class="underline-text">Read More</a></p>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -232,7 +188,7 @@
                         <span class="icon flaticon-007-mascara-4"></span>
                         <h5>Eye Makeup</h5>
                         <p>Fusce cursus lectus tellus. Vivamus cursus turpis auctor semper lobortis.</p>
-                        <p><a href="services-page.html" class="underline-text">Read More</a></p>
+                        <p><a href="services-page.php" class="underline-text">Read More</a></p>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -240,7 +196,7 @@
                         <span class="icon flaticon-034-eyebrow"></span>
                         <h5>Eyebrow Makeup</h5>
                         <p>Fusce cursus lectus tellus. Vivamus cursus turpis auctor semper lobortis.</p>
-                        <p><a href="services-page.html" class="underline-text">Read More</a></p>
+                        <p><a href="services-page.php" class="underline-text">Read More</a></p>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -248,13 +204,13 @@
                         <span class="icon flaticon-018-scissors"></span>
                         <h5>Haircut Makeup</h5>
                         <p>Fusce cursus lectus tellus. Vivamus cursus turpis auctor semper lobortis.</p>
-                        <p><a href="services-page.html" class="underline-text">Read More</a></p>
+                        <p><a href="services-page.php" class="underline-text">Read More</a></p>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12 text-right animate-box" data-animate-effect="fadeInUp">
-                    <p><a href="services.html" class="underline-text">See All Services</a></p>
+                    <p><a href="services.php" class="underline-text">See All Services</a></p>
                 </div>
             </div>
         </div>
@@ -341,11 +297,11 @@
                         <div class="cont">
                             <a href="#0" class="date"> <span><i>20</i> Dec</span> </a>
                             <div class="info custom-font">
-                                <a href="blog.html" class="tag"> <span>Bridal Makeup</span> </a>
+                                <a href="blog.php" class="tag"> <span>Bridal Makeup</span> </a>
                             </div>
                             <h6>
-                                <a href="post.html">8 Ways To Wear Flowers In Your Hair</a>
-                            </h6> <a href="post.html" class="underline-text">Read More</a>
+                                <a href="post.php">8 Ways To Wear Flowers In Your Hair</a>
+                            </h6> <a href="post.php" class="underline-text">Read More</a>
                         </div>
                     </div>
                     <div class="item list animate-box" data-animate-effect="fadeInUp">
@@ -353,11 +309,11 @@
                         <div class="cont">
                             <a href="#0" class="date"> <span><i>16</i> Dec</span> </a>
                             <div class="info custom-font">
-                                <a href="blog.html" class="tag"> <span>Hair Makeup</span> </a>
+                                <a href="blog.php" class="tag"> <span>Hair Makeup</span> </a>
                             </div>
                             <h6>
-                                <a href="post.html">What To Expect At Your Hair And Makeup Trial</a>
-                            </h6> <a href="post.html" class="underline-text">Read More</a>
+                                <a href="post.php">What To Expect At Your Hair And Makeup Trial</a>
+                            </h6> <a href="post.php" class="underline-text">Read More</a>
                         </div>
                     </div>
                     <div class="item list animate-box" data-animate-effect="fadeInUp">
@@ -365,18 +321,18 @@
                         <div class="cont">
                             <a href="#0" class="date custom-font"> <span><i>12</i> Dec</span> </a>
                             <div class="info">
-                                <a href="blog.html" class="tag"> <span>Makeup Lesson</span> </a>
+                                <a href="blog.php" class="tag"> <span>Makeup Lesson</span> </a>
                             </div>
                             <h6>
-                                <a href="post.html">So You Want To Be A Makeup Artist?</a>
-                            </h6> <a href="post.html" class="underline-text">Read More</a>
+                                <a href="post.php">So You Want To Be A Makeup Artist?</a>
+                            </h6> <a href="post.php" class="underline-text">Read More</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12 text-right animate-box" data-animate-effect="fadeInUp">
-                    <p><a href="blog.html" class="underline-text">All Posts</a></p>
+                    <p><a href="blog.php" class="underline-text">All Posts</a></p>
                 </div>
             </div>
         </div>
@@ -409,59 +365,7 @@
         </div>
     </div>
     <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-section">
-                <div class="row">
-                    <div class="col-md-4">
-                        <h6>Address Informations</h6>
-                        <p><b>Fredia Victoria</b>
-                            <br>Makeup Artist
-                        </p>
-                        <p>707 West Ave, CT 07750
-                            <br>Connecticut — Norwalk
-                        </p>
-                    </div>
-                    <div class="col-md-4">
-                        <h6>Contact Details</h6>
-                        <p>E-mail Address:
-                            <br>reservation@frediasan.com
-                        </p>
-                        <div class="btn-cont"><a href="contact.html"><span>Contact Us!</span></a></div>
-                        <br>
-                    </div>
-                    <div class="col-md-4">
-                        <h1>(+123) 456 789 000</h1>
-                        <p>Working Hours:
-                            <br>Mon-Fri: 08.00 - 19.00
-                            <br>Sunday: Closed
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="sub-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8">
-                        <div class="text-left">
-                            <p>© 2022. All right reserved. <a href="#">Terms &amp; Conditions</a></p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="text-right">
-                            <ul class="footer-social-link">
-                                <li><a href="#0"><i class="ti-facebook"></i></a></li>
-                                <li><a href="#0"><i class="ti-twitter"></i></a></li>
-                                <li><a href="#0"><i class="ti-instagram"></i></a></li>
-                                <li><a href="#0"><i class="ti-pinterest"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php include 'footer.php' ?>
     <!-- toTop -->
     <a href="index.html#" class="totop">TOP</a>
     <!-- jQuery -->
@@ -477,7 +381,5 @@
     <script src="modules/masonry/masonry.pkgd.min.js"></script>
     <script src="js/script.js"></script>
 </body>
-
-<!-- Mirrored from duruthemes.com/demo/html/fredia/light/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Jun 2023 00:13:48 GMT -->
 
 </html>

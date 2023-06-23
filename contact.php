@@ -2,13 +2,12 @@
 <html lang="en">
 
 
-<!-- Mirrored from duruthemes.com/demo/html/fredia/light/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Jun 2023 00:14:15 GMT -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="images/favicon.png" />
-    <title>Fredia -  Makeup Artist, Model & Beauty Template</title>
+    <title>Aamantrana - Makeup Courses by Best Makeup Artist</title>
     <link href="css/bootstrap.min.css" rel=stylesheet>
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/themify-icons.css" rel="stylesheet">
@@ -18,54 +17,20 @@
     <link href="modules/magnific-popup/magnific-popup.css" rel="stylesheet">
     <link href="modules/swiper/swiper.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144098545-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-144098545-1');
-    </script>
+
+
+
 </head>
 
 <body>
     <!-- Preloader -->
     <div id="fredia-page-loading" class="fredia-pageloading">
         <div class="fredia-pageloading-inner">
-            <a class="fredia-pageloading" href="index.html"> <img src="images/logo-dark.png" alt=" "> </a>
+            <a class="fredia-pageloading" href="index.php"> <img src="images/logo-dark.png" alt=" "> </a>
         </div>
     </div>
     <!-- Header -->
-    <header>
-        <div class="fredia-header-navbar">
-            <div class="container fredia-navbar-container">
-                <div class="fredia-navigation-wrap fredia-start-header start-style">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <nav class="navbar navbar-expand-md navbar-light">
-                                    <!-- Logo -->
-                                    <a class="navbar-brand" href="index.html"> <img src="images/logo.png" alt=""> </a>
-                                    <!-- Menu -->
-                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                        <ul class="navbar-nav ml-auto py-4 py-md-0">
-                                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> <a class="nav-link" href="index.html">Home</a></li>
-                                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> <a class="nav-link" href="about.html">About</a></li>
-                                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> <a class="nav-link" href="services.html">Services</a></li>
-                                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> <a class="nav-link" href="gallery.html">Gallery</a></li>
-                                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4"> <a class="nav-link" href="blog.html">Blog</a></li>
-                                            <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active"> <a class="nav-link" href="contact.html">Contact</a> </li>
-                                        </ul>
-                                    </div>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+    <?php include 'header.php' ?>
     <!-- Banner Title -->
     <div class="ready banner-padding bg-img bg-fixed valign" data-background="images/slider/02.jpg">
         <div class="container">
@@ -73,7 +38,7 @@
                 <div class="col-md-12">
                     <div class="text-right">
                         <div class="title mt-60 animate-box" data-animate-effect="fadeInUp">
-                            <h1 class="mb-0">Contact Us</h1> 
+                            <h1 class="mb-0">Contact Us</h1>
                             <h6>Address Informations</h6>
                         </div>
                     </div>
@@ -114,22 +79,22 @@
                                 <!-- Form elements -->
                                 <div class="row">
                                     <div class="col-md-6 form-group">
-                                        <input name="name" type="text" placeholder="Your Name *" required> 
+                                        <input name="name" type="text" placeholder="Your Name *" required>
                                     </div>
                                     <div class="col-md-6 form-group">
-                                        <input name="email" type="email" placeholder="Your Email *" required> 
+                                        <input name="email" type="email" placeholder="Your Email *" required>
                                     </div>
                                     <div class="col-md-6 form-group">
-                                        <input name="phone" type="text" placeholder="Your Number *" required> 
+                                        <input name="phone" type="text" placeholder="Your Number *" required>
                                     </div>
                                     <div class="col-md-6 form-group">
-                                        <input name="subject" type="text" placeholder="Subject *" required> 
+                                        <input name="subject" type="text" placeholder="Subject *" required>
                                     </div>
                                     <div class="col-md-12 form-group">
                                         <textarea name="message" id="message" cols="30" rows="4" placeholder="Message *" required></textarea>
                                     </div>
                                     <div class="col-md-12">
-                                        <input name="submit" type="submit"  value="Send Message">
+                                        <input name="submit" type="submit" value="Send Message">
                                     </div>
                                 </div>
                             </form>
@@ -145,49 +110,7 @@
         </div>
     </div>
     <!-- Footer -->
-     <footer>
-        <div class="container">
-            <div class="footer-section">
-                <div class="row">
-                    <div class="col-md-4">
-                        <h6>Address Informations</h6>
-                        <p><b>Fredia Victoria</b> <br>Makeup & Style</p>
-                        <p>707 West Ave, CT 07750<br>Connecticut — Norwalk</p>
-                    </div>
-                    <div class="col-md-4">
-                        <h6>Contact Details</h6>
-                        <p>E-mail Address:<br>reservation@frediasan.com</p>
-                        <div class="btn-cont"><a href="#"><span>Contact Us!</span></a></div><br>
-                    </div>
-                    <div class="col-md-4">
-                        <h1>(+123) 456 789 000</h1>
-                        <p>Working Hours:<br>Mon-Fri: 08.00 - 19.00<br>Sunday: Closed</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="sub-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8">
-                        <div class="text-left">
-                            <p>© 2022. All right reserved. <a href="#">Terms &amp; Conditions</a></p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="text-right">
-                            <ul class="footer-social-link">
-                                <li><a href="index.html#"><i class="ti-facebook"></i></a></li>
-                                <li><a href="index.html#"><i class="ti-twitter"></i></a></li>
-                                <li><a href="index.html#"><i class="ti-instagram"></i></a></li>
-                                <li><a href="index.html#"><i class="ti-pinterest"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php include 'footer.php' ?>
     <!-- toTop -->
     <a href="#" class="totop">TOP</a>
     <!-- jQuery -->
@@ -204,5 +127,4 @@
     <script src="js/script.js"></script>
 </body>
 
-<!-- Mirrored from duruthemes.com/demo/html/fredia/light/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 23 Jun 2023 00:14:15 GMT -->
 </html>
